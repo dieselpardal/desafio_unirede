@@ -185,11 +185,14 @@ def putGroup(item_name=None, item_email=None):
     if conn.existTable(table_name):
         table_group = resourceDB.Table(table_name)
         id = str(uuid4())
+        sortkey = str(uuid4())
         response = table_group.put_item(
             Item={
                 'Id': id,
+                'sortkey': sortkey,
                 'owner': item_email,
                 'name': item_name,
+                'contacts_list': [],
             }
         )
         return response
