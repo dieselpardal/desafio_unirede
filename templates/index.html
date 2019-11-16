@@ -1,0 +1,64 @@
+<HTML>
+<head><title>PROJETO DE DESAFIO DIESEL</title></head>
+<body>
+<center>
+<br/>
+<DIV style="width:95%;text-align:left;"><b>PROJETO DE DESAFIO DIESEL</b>
+<div>
+    <br/>AUTOR: Ivan Diesel
+
+    <br/><br/>
+  <b>OBJETIVO</b><br/>
+O desafio de trabalho de Projeto é que permite a controlar os dados e a funcionalidade de todos os componentes,
+frameworks e variáveis ao acordo de desafio.
+    <br/><br/>
+Fazer as entradas: <br/><br/>
+    <div style="width:100%;" >
+        <center>
+    <table style="width:80%; border:2px solid blue; background-color:yellow;">
+        <tr style="background-color:orange;"><th>comando </th><th>Request</th><th>Significa</th><th>Demonstrar</th>
+            </tr>
+        <tr><td>/index  </td><td>-</td><td>Página Principal.</td></tr>
+        <tr><td>/organization  </td><td>GET</td><td>Mostra json de <i>Organization.</i></td>
+            <td><input type="button" value="RUN" onclick="window.location.href='organization';"/></td>
+        </tr>
+        <tr><td>/group  </td><td>GET</td><td>Mostra json de <i>Group.</i> </td>
+            <td><input type="button" value="RUN" onclick="window.location.href='group';"/></td>
+        </tr>
+        <tr><td>/group/id </td><td>GET</td><td>resultar a lista de id. </td>
+            <td><input type="button" value="RUN" onclick="window.location.href='group/id';"/></td>
+        </tr>
+        <tr><td>/group/name/<i>nome</i> </td><td>PUT</td><td>Adicionar um novo nome do Grupo. </td>
+            <td><i>Somente POSTMAN ou HTTP</i></td>
+        </tr>
+        <tr><td>/tablelist   </td><td>GET</td><td>Mostra a lista de tabelas.</td>
+            <td><input type="button" value="RUN" onclick="window.location.href='tablelist';"/></td>
+        </tr>
+        <tr><td>/createtable/<i>nome de tabela</i>  </td><td>PUT</td><td>Cria nova tabela.</td>
+            <td><i>Somente POSTMAN ou HTTP</i></td>
+        </tr>
+        <tr><td>/deletetable/<i>nome de tabela</i> </td><td>DELETE</td><td>Apagar uma tabela existida.</td>
+            <td><i>Somente POSTMAN ou HTTP</i></td>
+        </tr>
+        <tr><td>/scangroup </td><td>GET</td><td>Mostra os itens de uma tabela existida.</td>
+            <td><i>Somente POSTMAN ou HTTP</i></td>
+        </tr>
+        <tr><td>/loadgroup </td><td>POST</td><td>Carrega um arquivo de json de group e migrar os itens na tabela de Group.</td>
+            <td><i>Somente POSTMAN ou HTTP</i></td>
+        </tr>
+        <tr><td>/putgroup/{item_name}/{item_email}</td><td>PUT</td><td>Adicionar novo itens de Nome e email na tabela de Group.</td>
+            <td><i>Somente POSTMAN ou HTTP</i></td>
+        </tr>
+        <tr><td>/create_table/cloudservices_usersgroups</td><td>POST</td><td>Criar uma tabela de <i>cloudservices_usersgroups.</i> no DynamoDB.</td>
+            <td><input type="button" value="RUN" onclick="window.location.href='create_table/cloudservices_usersgroups';"/></td>
+        </tr>
+
+    </table>
+            </center>
+        </div>
+    </div>
+    </center>
+    <hr>
+</div>
+</body>
+</HTML>

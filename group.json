@@ -1,0 +1,28 @@
+{
+  "group": [
+    {
+    "id": "01163df6631e45eea2b7a6c4e830a8rr",
+    "owner": "user email",
+    "name": "Some name",
+    "contacts_list": [
+      {
+        "name": "Contact alias",
+        "details": [
+          {
+            "data": "phone number",
+            "type": "whatsApp"
+          },
+          {
+            "data": "smth@yahoo.com",
+            "type": "email"
+          },
+          {
+            "data": "other phone number",
+            "type": "telegram"
+          }
+        ]
+      }
+    ]
+  }
+  ]
+}
