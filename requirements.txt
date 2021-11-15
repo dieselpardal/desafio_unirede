@@ -1,5 +1,5 @@
 
-pip==19.3.1
+pip==21.1
 botocore==1.13.16
 chalice==1.12.0
 Boto3==1.10.16
